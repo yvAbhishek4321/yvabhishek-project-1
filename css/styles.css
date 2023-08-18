@@ -1,0 +1,33 @@
+header{
+	grid-template-columns: 15% 85%;
+	margin-bottom: 10px;
+}
+header,header ul,footer{
+	display: grid;
+}
+header img{
+	width: 100%;
+}
+header ul{
+	grid-template-columns: repeat(5, 1fr);
+}
+header,footer{
+	background-color: #000;
+}
+/*footer styles */
+footer{
+	grid-template-columns: repeat(4, 1fr);
+}
+.white{
+	color: #fff;
+}
+a{
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/*banner styles */
+.bannerBlock img{
+	width: 100%;
+	height: 600px;
+}
